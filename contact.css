@@ -1,0 +1,780 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ .toggle-blk {
+     display: none;
+ } 
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+  
+width: 100% ;
+background: #F5F5F5;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menu ul {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+.menu ul li a {
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #363636;
+}
+.menu ul li a:hover {
+    color: #B58B61;
+}
+
+
+.hero{
+    background-image: url(images/photo-bg.png);
+    background-repeat: no-repeat;
+   height:418px;
+    background-size: cover;
+ 
+    width: 100%;
+   
+}   
+
+.touch{
+    padding-top: 157px;
+    padding-bottom: 72px;
+}
+.main-touch {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-touch h4 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #BBA085;
+}
+
+.main-touch h3 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #5B5B5B;
+}
+.contact-form-area .container{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.main-contact-form{
+    display: flex;
+     align-items: stretch;
+}
+.contact-form{
+     width: calc(100% / 2);
+}
+.contact-image{
+     width: calc(100% / 2);
+   
+}
+
+.contact-image img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    display: block;
+}
+.contact-form{
+    padding: 97px;
+  
+}
+.inner-form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.gun{
+    display: flex;
+    flex-direction: column;  
+    gap: 4px;
+}
+.gun label {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    /* text-align: center; */
+    color: #494949;
+}
+.gun input{
+  padding: 20px;
+background: #FFFFFF;
+border: none;
+outline: none;
+}
+textarea{
+    height: 234px;
+    resize: none;
+    background: #FFFFFF;
+border: none;
+outline: none;
+}
+.contact-form-area{
+    background-color: #F8F8F8;
+}
+.gun-btn {
+    display: flex;
+}
+
+a.contact-btn {
+    padding: 16px 47px;
+    background: #E9E1D9;
+}
+a.contact-btn span {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0.1em;
+    color: #454545;
+}
+a.contact-btn:hover{
+    background-color: #B58B61;
+}
+a.contact-btn:hover span{
+    color: white;
+}
+.enquire{
+    padding: 125px 0;
+}
+
+
+.main-enquire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+
+.enq-word h4 {
+    font-family: 'Ephesis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #B58B61;
+}
+
+.enq-hd h3 {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2D2D2D;
+    max-width: 686px;
+}
+.flower-bg{
+    background-image: url(images/flower-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 779px; */
+     height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* .flower-bg  {
+    height: 100%;
+    width: 100%;
+    
+} */
+.overlap-area {
+    padding: 52px 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 435px;
+       box-sizing: border-box;
+        height: 100%;
+}
+.email,
+.loc,
+.mob {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email h4, 
+.loc h4, 
+.mob h4 {
+  
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #2D2D2D;
+}
+
+
+
+.email a p , .loc a p , .mob a p{
+    
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+}
+
+.email a img,
+.loc a img,
+.mob a img {
+    height: 80px;
+    width: 80px;
+}
+
+.main-flower-bg{
+    display: flex;
+        height: 100%;
+}
+.overlap_one{
+    width: calc(100% / 2);
+}
+.overlap-area{
+       width: calc(100% / 2);
+}
+
+
+.footer-area{
+margin-top: 118px;
+padding-bottom: 20px;
+background: rgba(245, 245, 245, 0.8);
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+   
+}
+
+
+.bottom-bar {
+    padding-top: 8px;
+   
+   
+width: 100% ;
+
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.menu-footer ul {
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+.menu-footer ul li a {
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #363636;
+}
+.footer-lower {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    justify-content: center;
+    align-items: center;
+}
+.last-section{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #2D2D2D;
+    max-width: 619px;
+}
+.footer-copyright p {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2D2D2D;
+}
+.footer-icons ul {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icons ul li a img {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width:1800px){}
+@media(max-width:1400px){}
+@media(max-width:1200px){
+
+.menu ul {
+    gap: 36px;
+   
+}
+
+.menu ul li a {
+  
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+.menu ul li a img {
+    width: 200px;
+}
+
+
+.menu-footer ul {
+    gap: 36px;
+   
+}
+
+.menu-footer ul li a {
+  
+    font-size: 20px;
+    line-height: 27px;
+    
+}
+.menu-footer ul li a img {
+    width: 200px;
+}
+
+.touch {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.main-touch h4 {
+   
+    font-size: 25px;
+    line-height: 30px;
+   
+}
+.main-touch h3 {
+   
+    font-size: 38px;
+    line-height: 48px;
+ 
+}
+.enquire {
+    padding: 100px 0;
+}
+.enq-word h4 {
+    
+    font-size: 54px;
+    line-height: 73px;
+    
+}
+.enq-hd h3 {
+   
+    font-size: 38px;
+    line-height: 48px;
+   
+}
+
+
+
+
+
+
+
+
+}
+@media(max-width:1024px){}
+@media(max-width:991px){
+
+     .toggle-blk {
+         display: flex;
+         align-items:center ;
+         justify-content: flex-end;
+     }
+      .menu {
+        display: none;
+    }
+
+     .menu.active {
+        display: block;
+    
+
+    } 
+    .menu ul {
+           
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding-bottom: 50px;
+    
+    } 
+
+
+.touch {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.enquire {
+    padding: 50px 0;
+}
+
+.main-touch h3 {
+    font-size: 35px;
+    line-height: 48px;
+}
+.contact-form {
+    padding: 30px;
+}
+.enq-hd h3 {
+    font-size: 33px;
+    line-height: 43px;
+}
+.enq-word h4 {
+    font-size: 44px;
+    line-height: 63px;
+}
+.email a img, .loc a img, .mob a img {
+    height: 60px;
+    width: 60px;
+}
+.email h4, .loc h4, .mob h4 {
+ 
+    font-size: 25px;
+    line-height: 30px;
+   
+}
+.email a p, .loc a p, .mob a p {
+   
+    font-size: 25px;
+    line-height: 30px;
+  
+}
+
+}
+@media(max-width:767px){
+    
+.menu-footer ul li a {
+    font-size: 16px;
+    line-height: 23px;
+}
+.menu-footer ul {
+    gap: 21px;
+}
+.footer-text p {
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer-lower {
+   
+    gap: 19px;
+  
+}
+.footer-icons ul li a img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 17px;
+}
+
+
+
+.gun label {
+
+    font-size: 25px;
+    line-height: 30px;
+  
+}
+.gun input {
+    padding: 15px;
+   
+}
+
+
+textarea label {
+
+    font-size: 25px;
+    line-height: 30px;
+  
+}
+textarea {
+    height: 145px;
+    
+}
+a.contact-btn {
+    padding: 11px 41px;
+ 
+}
+a.contact-btn span {
+  
+    font-size: 25px;
+    line-height: 30px;
+ 
+}
+.footer-area {
+    margin-top: 51px;
+   
+}
+
+
+
+
+
+
+}
+@media(max-width:575px){
+       
+.menu-footer ul li a img {
+   
+    display: none;
+}
+.menu-footer ul li a {
+    font-size: 16px;
+    line-height: 23px;
+}
+.menu-footer ul {
+    gap: 21px;
+}
+.footer-text p {
+    font-size: 16px;
+    line-height: 23px;
+}
+.footer-lower {
+   
+    gap: 19px;
+  
+}
+.footer-icons ul li a img {
+    display: flex;
+    width: 20px;
+    height: 20px;
+}
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 17px;
+}   
+.overlap-area {
+        padding: 20px 35px;
+    gap: 20px;
+   
+}
+.email a img, .loc a img, .mob a img {
+    height: 40px;
+    width: 40px;
+}
+.email h4, .loc h4, .mob h4 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.email a p, .loc a p, .mob a p {
+    font-size: 20px;
+    line-height: 25px;
+}
+.main-touch h4 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.main-touch h3 {
+    font-size: 25px;
+    line-height: 40px;
+}
+.touch {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.main-touch {
+   
+    gap: 15px;
+   
+}
+.main-contact-form {
+   
+    flex-direction: column;
+}
+
+.contact-form {
+    width: 100%;
+}
+.contact-image {
+    width: 100%;
+}
+.enq-word h4 {
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.enq-hd h3 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.enquire {
+    padding: 30px 0;
+}
+
+}
+@media(max-width:480px){
+
+
+.footer-lower {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icons ul li a img {
+   
+    width: 20px;
+    height: 20px;
+}
+
+.footer-copyright p {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+.menu-footer ul {
+    gap: 9px;
+}
+.footer-area {
+    margin-top: 70px;
+ 
+    gap: 9px;
+}
+.footer-lower {
+   
+    gap: 11px;
+}
+.footer-text p {
+    font-size: 16px;
+    line-height: 23px;
+    padding: 0px 20px;
+}
+
+
+
+
+.touch {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+textarea {
+    height: 100px;
+}
+a.contact-btn {
+    padding: 9px 38px;
+}
+a.contact-btn span {
+    font-size: 20px;
+    line-height: 25px;
+}
+.enq-hd h3 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
